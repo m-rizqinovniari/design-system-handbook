@@ -1,0 +1,54 @@
+{
+  "docs": [
+    "index",
+    {
+      "type": "category",
+      "label": "Introduction to Design Systems",
+      "items": [
+        "module-1-introduction-to-design-systems/chapter-1",
+        "module-1-introduction-to-design-systems/chapter-2",
+        "module-1-introduction-to-design-systems/chapter-3"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Foundations of Visual and Interaction Design",
+      "items": [
+        "module-2-foundations-visual-interaction/chapter-1",
+        "module-2-foundations-visual-interaction/chapter-2"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Design Tokens and System Foundations",
+      "items": [
+        "module-3-design-tokens/chapter-1",
+        "module-3-design-tokens/chapter-2"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Component-Based Design",
+      "items": [
+        "module-4-component-based-design/chapter-1",
+        "module-4-component-based-design/chapter-2"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Scalable Design Systems and Collaboration",
+      "items": [
+        "module-5-scalability-collaboration/chapter-1",
+        "module-5-scalability-collaboration/chapter-2"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Maintaining, Evolving, and Applying Design Systems",
+      "items": [
+        "module-6-maintenance-and-project/chapter-1",
+        "module-6-maintenance-and-project/chapter-2"
+      ]
+    }
+  ]
+}
