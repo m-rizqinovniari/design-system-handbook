@@ -3,38 +3,38 @@ title: Introduction
 sidebar_position: 0
 ---
 
-# Deep Dive into Design Systems for UI/UX Designers
+# Design Systems for UI/UX Designers
 
-This course provides a comprehensive and practical exploration of design systems for UI/UX Designers. Starting from zero prior knowledge, learners will progressively build a strong theoretical foundation and hands-on skills to design, document, and maintain scalable design systems. The course is designed to reach an advanced understanding within a limited timeframe, focusing on real-world application, collaboration with developers, and best practices used in modern product teams.
+This learning provides a comprehensive and practical exploration of design systems for UI/UX Designers. Starting from zero prior knowledge, learners will progressively build a strong theoretical foundation and hands-on skills to design, document, and maintain scalable design systems. The learning is designed to reach an advanced understanding within a limited timeframe, focusing on real-world application, collaboration with developers, and best practices used in modern product teams.
 
 ## 🎯 Learning Path
 
-The following diagram shows the learning path of this course:
+The following diagram shows the learning path of this learning:
 
 ```mermaid
 graph TD
     P1["Foundation"]
     M1_1["Introduction to Design Systems"]
     P1 --> M1_1
-    M1_2["Foundations of Visual and I..."]
+    M1_2["Foundations of Visual and Interaction Design"]
     P1 --> M1_2
     P2["Intermediate"]
     P1 --> P2
-    M2_1["Design Tokens and System Fo..."]
+    M2_1["Design Tokens and System Foundations"]
     P2 --> M2_1
     M2_2["Component-Based Design"]
     P2 --> M2_2
     P3["Advanced"]
     P2 --> P3
-    M3_1["Scalable Design Systems and..."]
+    M3_1["Scalable Design Systems and Patterns"]
     P3 --> M3_1
-    M3_2["Design System Documentation..."]
+    M3_2["Design System Documentation Collaboration"]
     P3 --> M3_2
     P4["Expert"]
     P3 --> P4
-    M4_1["Maintaining and Evolving a ..."]
+    M4_1["Maintaining and Evolving a Design System"]
     P4 --> M4_1
-    M4_2["Hands-on Mini Project: Buil..."]
+    M4_2["Hands-on Mini Project: Build a Design System"]
     P4 --> M4_2
 ```
 
@@ -48,42 +48,42 @@ This roadmap shows the learning path from basics to advanced level.
 
 This phase builds a strong conceptual foundation by introducing what design systems are, why they matter, and how they differ from related concepts. Learners will gain essential vocabulary and mental models required for deeper exploration in later phases.
 
-| Module | Deskripsi | Time |
-|------|------------|-------|
-| Introduction to Design Systems | An overview of design systems, their history, and their role in digital product development. Lear... | 1.5 hours |
-| Foundations of Visual and Interaction Design | Covers the fundamental design principles that form the base of any design system, ensuring learne... | 1 hour |
+| Module | Description |
+|------|------------|
+| Introduction to Design Systems | An overview of design systems, their history, and their role in digital product development. Learners will build shared vocabulary, mental models, and contextual awareness before diving into practical creation. |
+| Foundations of Visual and Interaction Design | Covers the fundamental design principles that form the base of any design system, ensuring learners understand the building blocks before formalizing them into tokens and components. |
 
 ### Intermediate
 
 This phase focuses on applying foundational knowledge to create structured and reusable elements. Learners will start building parts of a design system and understand how components are organized and documented.
 
-| Module | Deskripsi | Time |
-|------|------------|-------|
-| Design Tokens and System Foundations | Learners will explore design tokens as the single source of truth and understand how design decis... | 1.5 hours |
-| Component-Based Design | Introduces the concept of atomic and component-based design, focusing on creating reusable UI com... | 2 hours |
+| Module | Description |
+|------|------------|
+| Design Tokens and System Foundations | Learners will explore design tokens as the single source of truth and understand how design decisions bridge design and implementation across platforms. |
+| Component-Based Design | Introduces the concept of atomic and component-based design, focusing on creating reusable UI components using systematic approaches that ensure consistency in appearance and behavior. |
 
 ### Advanced
 
 This phase deepens understanding by addressing scalability, collaboration, and real-world implementation challenges. Learners will work with complex components and system governance concepts.
 
-| Module | Deskripsi | Time |
-|------|------------|-------|
-| Scalable Design Systems and Patterns | Focuses on building design systems that can grow with products and teams while remaining consiste... | 1.5 hours |
-| Design System Documentation and Collaboration | Covers best practices for documenting design systems and collaborating effectively with developer... | 1.5 hours |
+| Module | Description |
+|------|------------|
+| Scalable Design Systems and Patterns | Focuses on building design systems that can grow with products and teams while remaining consistent, addressing challenges of scaling and collaboration in real-world environments. |
+| Design System Documentation and Collaboration | Covers best practices for documenting design systems and collaborating effectively with developers and stakeholders using modern tools and workflows. |
 
 ### Expert
 
 The final phase emphasizes real-world application, optimization, and long-term maintenance. Learners will synthesize all knowledge into a practical mini project and explore advanced considerations.
 
-| Module | Deskripsi | Time |
-|------|------------|-------|
-| Maintaining and Evolving a Design System | Explores how to keep design systems relevant and effective over time through governance, feedback... | 1 hour |
-| Hands-on Mini Project: Build a Design System | A practical capstone module where learners design a small but complete design system, applying th... | 1 hour |
+| Module | Description |
+|------|------------|
+| Maintaining and Evolving a Design System | Explores how to keep design systems relevant and effective over time through governance, feedback loops, and continuous improvement strategies. |
+| Hands-on Mini Project: Build a Design System | A practical capstone module where learners design a small but complete design system, applying the knowledge and skills acquired throughout the learning. |
 
 
 ## 📚 Complete Learning Structure
 
-Complete course structure with all modules and chapters.
+Complete learning structure with all modules and chapters.
 
 ### Introduction to Design Systems
 
