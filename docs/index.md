@@ -1,27 +1,11 @@
 ---
-title: Deep Dive into Design Systems for UI/UX Designers
+title: Introduction
 sidebar_position: 0
 ---
 
 # Deep Dive into Design Systems for UI/UX Designers
 
 This course provides a comprehensive and practical exploration of design systems for UI/UX Designers. Starting from zero prior knowledge, learners will progressively build a strong theoretical foundation and hands-on skills to design, document, and maintain scalable design systems. The course is designed to reach an advanced understanding within a limited timeframe, focusing on real-world application, collaboration with developers, and best practices used in modern product teams.
-
-
-## 📋 Course Overview
-
-**Estimated Duration:** 10 hours
-
-**Level:** advanced level with sufficient experience
-
-**Learning Focus:** Combination of theory and practice
-
-**Learning Objectives:**
-
-- Understand the core concepts, purpose, and value of design systems in modern digital products
-- Design and document a complete and scalable design system with reusable components
-- Apply best practices for maintaining, evolving, and collaborating on design systems in real-world teams
-
 
 ## 🎯 Learning Path
 
@@ -97,7 +81,7 @@ The final phase emphasizes real-world application, optimization, and long-term m
 | Hands-on Mini Project: Build a Design System | A practical capstone module where learners design a small but complete design system, applying th... | 1 hour |
 
 
-## 📚 Complete Course Structure
+## 📚 Complete Learning Structure
 
 Complete course structure with all modules and chapters.
 

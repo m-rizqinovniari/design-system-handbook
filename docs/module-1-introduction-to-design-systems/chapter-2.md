@@ -4,36 +4,13 @@ sidebar_position: 2
 part: 1
 part_title: Introduction to Design Systems
 ---
-# Introduction to Design Systems: Design Systems vs UI Kits vs Style Guides
-
-## Learning Objectives
-
-- Differentiate UI kits, style guides, and design systems by scope and purpose
-- Identify scenarios where each approach is appropriate
-- Explain limitations of UI kits and style guides in scaling products
-- Analyze real-world examples to classify system maturity
-- Apply a decision framework to choose the correct design asset type
-
----
-
-## Introduction
-
-This chapter clarifies closely related concepts that are often confused. Learners will understand the scope, limitations, and appropriate use cases of UI kits, style guides, and full design systems through comparison and examples.
-
----
-
-
----
-
+# Design Systems vs UI Kits vs Style Guides
 
 As digital products grow in complexity, teams increasingly struggle with consistency, scalability, and efficiency in design and development. Buttons look slightly different across screens, colors drift from brand guidelines, and new features take longer to design because teams repeatedly reinvent the same components. To solve these problems, the design industry has introduced several closely related—but often misunderstood—tools and approaches: **UI kits**, **style guides**, and **design systems**.
 
 At first glance, these concepts appear interchangeable. Many teams say they “have a design system” when they actually mean a shared Figma file with components. Others invest heavily in brand guidelines but still face inconsistent interfaces across products. This confusion leads to mismatched expectations, wasted effort, and tools that fail to scale with the organization’s needs.
 
 This chapter clarifies these concepts in depth. You will learn not only *what* UI kits, style guides, and design systems are, but *why* they exist, *how* they differ, *when* each is appropriate, and *what happens* when they are misapplied. By the end, you will be able to confidently choose the right approach for a product, team, or organization—and explain that choice clearly to others.
-
----
-
 
 By the end of this chapter, you will be able to:
 

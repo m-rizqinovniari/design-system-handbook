@@ -4,27 +4,7 @@ sidebar_position: 1
 part: 1
 part_title: Introduction to Design Systems
 ---
-# Introduction to Design Systems: What Is a Design System and Why It Matters
-
-## Learning Objectives
-
-- Clearly define a design system and list its core components
-- Explain at least three historical drivers behind the rise of design systems
-- Identify key product and team problems solved by design systems
-- Describe how design systems support consistency and scalability
-- Differentiate between tactical UI work and system-level thinking
-
----
-
-## Introduction
-
-This chapter introduces the core concept of design systems, tracing their evolution and explaining their role in ensuring consistency, scalability, and efficiency in digital products. It sets the conceptual groundwork for all subsequent modules.
-
----
-
-
----
-
+# What Is a Design System and Why It Matters
 
 As digital products grow more complex, teams face an increasingly difficult challenge: how to build interfaces that are **consistent**, **scalable**, and **efficient** across many screens, platforms, and contributors. What once started as a single website or app often evolves into an ecosystem—multiple products, multiple teams, multiple devices, and years of ongoing iteration. Without a shared foundation, this growth quickly leads to fragmentation, duplicated work, visual inconsistency, and rising costs.
 
@@ -33,9 +13,6 @@ This is where **design systems** come in.
 A design system is not just a trendy deliverable or a design team artifact. It represents a fundamental shift in how teams think about design and development—from crafting individual screens to building **systems of reusable parts governed by shared principles**. Design systems help teams move faster without sacrificing quality, enable collaboration across disciplines, and ensure that products feel coherent no matter how large they become.
 
 This chapter lays the conceptual groundwork for everything that follows. We will explore what design systems are, how they evolved, the problems they aim to solve, and why they are increasingly seen as a **strategic asset** rather than a purely tactical tool. By the end of this chapter, you should understand not only *what* a design system is, but *why it matters deeply* to modern product teams.
-
----
-
 
 By the end of this chapter, you will be able to:
 
@@ -286,8 +263,6 @@ Initially, design systems may appear costly to build and maintain. However, over
 - Strengthen brand consistency  
 
 This reframes design systems as investments rather than overhead.
-
-### Case Study: Scaling a Global SaaS Platform with a Design System
 
 ## Case Study: From Fragmentation to Scale at Atlas CRM
 

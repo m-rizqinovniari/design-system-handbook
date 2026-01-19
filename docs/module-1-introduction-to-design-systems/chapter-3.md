@@ -4,36 +4,13 @@ sidebar_position: 3
 part: 1
 part_title: Introduction to Design Systems
 ---
-# Introduction to Design Systems: Real-World Design Systems in Practice
-
-## Learning Objectives
-
-- Identify key characteristics of major public design systems
-- Compare design philosophies across different systems
-- Extract best practices from real-world implementations
-- Recognize trade-offs in system design decisions
-- Translate observed patterns into actionable insights
-
----
-
-## Introduction
-
-This chapter examines established design systems to help learners understand how theory translates into real-world implementation. Learners will analyze structure, strengths, and trade-offs in well-known systems.
-
----
-
-
----
-
+# Real-World Design Systems in Practice
 
 Design systems often begin as abstract concepts: collections of principles, reusable components, and shared guidelines intended to bring consistency and efficiency to product design. For many learners, however, the real challenge is not understanding *what* a design system is, but understanding *how it actually works in the real world*. How do large organizations maintain consistency across hundreds of teams? How do design systems evolve over time? And what trade-offs are made when theory meets the messy realities of business, technology, and human collaboration?
 
 This chapter bridges that gap between theory and practice by examining **established, real-world design systems** that are widely used and publicly documented. Instead of treating design systems as idealized frameworks, we will explore them as *living systems*: shaped by organizational goals, technical constraints, cultural values, and long-term maintenance decisions.
 
 By studying Material Design, Shopify Polaris, and IBM’s Carbon Design System, learners will see how different organizations solve similar problems in different ways. More importantly, you will learn how to *extract lessons* from these systems—so you can apply their insights thoughtfully in your own context, rather than copying them blindly.
-
----
-
 
 By the end of this chapter, you will be able to:
 
@@ -202,10 +179,10 @@ quadrantChart
     title Design System Philosophies
     x-axis Low Flexibility --> High Flexibility
     y-axis Low Opinionation --> High Opinionation
-    quadrant-1 High Opinionation, High Flexibility
-    quadrant-2 High Opinionation, Low Flexibility
-    quadrant-3 Low Opinionation, Low Flexibility
-    quadrant-4 Low Opinionation, High Flexibility
+    quadrant-1 High Opini.., High Flexi..
+    quadrant-2 High Opini.., Low Flexi..
+    quadrant-3 Low Opini.., Low Flexi..
+    quadrant-4 Low Opini.., High Flexi..
     Material Design: [0.7, 0.8]
     Polaris: [0.3, 0.6]
     Carbon: [0.2, 0.5]

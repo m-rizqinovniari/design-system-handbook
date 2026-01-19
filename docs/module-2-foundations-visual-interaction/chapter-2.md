@@ -4,36 +4,13 @@ sidebar_position: 2
 part: 2
 part_title: Foundations of Visual and Interaction Design
 ---
-# Foundations of Visual and Interaction Design: Layout, Spacing, and Interaction Principles
-
-## Learning Objectives
-
-- Construct a spacing system based on consistent units
-- Apply grid systems to organize UI layouts
-- Explain core interaction design principles
-- Identify common interaction patterns and their purposes
-- Evaluate interface layouts for clarity and usability
-
----
-
-## Introduction
-
-This chapter focuses on spatial systems and interaction fundamentals that ensure clarity, usability, and consistency across interfaces.
-
----
-
-
----
-
+# Layout, Spacing, and Interaction Principles
 
 When people describe a digital product as “clean,” “intuitive,” or “easy to use,” they are often responding to invisible decisions about layout, spacing, and interaction. These decisions shape how information is perceived, how easily actions are discovered, and how confidently users move through an interface. Visual and interaction design foundations are not about decoration; they are about structure, logic, and human behavior.
 
 This chapter focuses on the spatial systems and interaction fundamentals that ensure clarity, usability, and consistency across interfaces. You will learn how spacing creates visual rhythm, how grids bring order to complex layouts, how layouts adapt to different screen sizes, and how interaction principles guide user behavior. Together, these foundations form the backbone of effective interface design, whether you are designing a mobile app, a web platform, or a complex enterprise system.
 
 Rather than treating design as a set of subjective preferences, this chapter frames layout and interaction as systems—repeatable, explainable, and evaluable. By the end, you should be able to look at any interface and understand *why* it feels clear or confusing, and *how* to improve it using proven principles.
-
----
-
 
 By the end of this chapter, you will be able to:
 
@@ -331,11 +308,11 @@ States represent different conditions of an element:
 
 ```mermaid
 stateDiagram-v2
-    [*] --> Default
-    Default --> Hover
-    Hover --> Active
-    Active --> Default
-    Default --> Disabled
+    [*] --> DefaultState
+    DefaultState --> HoverState
+    HoverState --> ActiveState
+    ActiveState --> DefaultState
+    DefaultState --> DisabledState
 ```
 
 ---
@@ -359,8 +336,6 @@ Design systems formalize:
 - Grid rules
 - Component behaviors
 - Interaction patterns
-
-### Case Study: Redesigning a SaaS Dashboard
 
 ## Case Study: Creating Consistency in a Growing Product
 

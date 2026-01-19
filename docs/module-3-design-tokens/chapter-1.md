@@ -4,27 +4,7 @@ sidebar_position: 1
 part: 3
 part_title: Design Tokens and System Foundations
 ---
-# Design Tokens and System Foundations: Understanding Design Tokens
-
-## Learning Objectives
-
-- Define design tokens and their role in design systems
-- List and describe common token categories
-- Explain how tokens support consistency across platforms
-- Differentiate tokens from static design styles
-- Identify scenarios where tokens add the most value
-
----
-
-## Introduction
-
-This chapter explains what design tokens are, why they matter, and how they act as a single source of truth across platforms.
-
----
-
-
----
-
+# Understanding Design Tokens
 
 As digital products grow in complexity, teams face a persistent challenge: **how to maintain consistency, scalability, and alignment across design and development, platforms and devices, teams and time**. Colors drift slightly between platforms, spacing feels inconsistent, typography rules get reinterpreted, and design intent is lost somewhere between Figma files and production code. What begins as a small inconsistency often snowballs into technical debt, brand erosion, and slower delivery.
 
@@ -33,9 +13,6 @@ This is the context in which **design tokens** emerged.
 Design tokens are not just another design-system buzzword. They represent a **fundamental shift in how we define, store, and share design decisions**. Instead of hardcoding values like `#0055FF`, `16px`, or `Roboto Bold` in dozens of places, teams define these decisions once, give them semantic meaning, and reuse them everywhere. In doing so, design tokens become the **single source of truth** that connects design tools, codebases, and platforms.
 
 This chapter lays the foundation for understanding design tokens deeply. We will explore **what design tokens are**, **why they matter**, **how they differ from traditional styles**, and **how they bridge the gap between design and engineering**. By the end, you should not only understand tokens conceptually, but also recognize when and where they provide the most value—and where they might introduce complexity.
-
----
-
 
 By the end of this chapter, you will be able to:
 
@@ -325,8 +302,6 @@ Modern tooling supports this workflow:
 - Token management tools (Style Dictionary)
 - CI/CD pipelines
 
-### Case Study: Scaling a Multi-Platform Product with Design Tokens
-
 ## Case Study: Scaling Consistency at NovaPay
 
 ### Context
@@ -371,10 +346,10 @@ Design tokens offer significant advantages, but they are not a silver bullet.
 
 ### Key Benefits
 
-- **Consistency at scale**
-- **Faster global changes**
-- **Improved collaboration**
-- **Cross-platform alignment**
+- Consistency at scale
+- Faster global changes
+- Improved collaboration
+- Cross-platform alignment
 
 ### Limitations and Trade-offs
 

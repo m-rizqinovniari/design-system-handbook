@@ -4,41 +4,13 @@ sidebar_position: 2
 part: 6
 part_title: Maintaining, Evolving, and Applying Design Systems
 ---
-# Maintaining, Evolving, and Applying Design Systems: Hands-on Mini Project: Building a Design System
-
-## Learning Objectives
-
-- Define a clear scope and principles for a design system
-- Create and apply design tokens consistently
-- Design and document core UI components
-- Evaluate the quality and completeness of a system
-- Identify areas for future enhancement
-
----
-
-## Introduction
-
-In this capstone chapter, learners apply all acquired knowledge to design a small but complete design system, reinforcing practical skills and critical thinking.
-
----
-
-# Maintaining, Evolving, and Applying Design Systems  
-
----
-
-## Hands-on Mini Project: Building a Design System
-
----
-
+# Hands-on Mini Project: Building a Design System
 
 Design systems are no longer static libraries of colors and buttons. In modern product organizations, they are living ecosystems that evolve alongside business goals, technology, and user needs. This capstone chapter brings together everything you have learned so far and turns theory into practice through a hands-on mini project: **designing a small but complete design system from scratch**.
 
 The purpose of this chapter is not just to “build components,” but to **think like a design system owner**. That means making intentional decisions about scope, principles, consistency, documentation, and long-term sustainability. You will experience firsthand how design systems balance creativity and constraints, speed and quality, flexibility and governance.
 
 By the end of this chapter, you will understand not only *how* to build a design system, but also *why* certain decisions matter, *when* to evolve the system, and *how* to critically evaluate its effectiveness. This is the bridge between learning design systems and **applying them confidently in real-world projects**.
-
----
-
 
 By completing this chapter, you will be able to:
 
@@ -159,7 +131,7 @@ This abstraction allows change at scale. Update a token once, and the entire sys
 
 Start with **foundations**, not components. Foundations define the visual language that components inherit.
 
-### # Color Tokens
+### Color Tokens
 
 Rather than naming colors by appearance, name them by **purpose**.
 
@@ -169,7 +141,7 @@ Rather than naming colors by appearance, name them by **purpose**.
 
 This prevents misuse and supports theming (e.g., dark mode).
 
-### # Typography Tokens
+### Typography Tokens
 
 Typography tokens define hierarchy and rhythm:
 
@@ -180,7 +152,7 @@ Typography tokens define hierarchy and rhythm:
 
 Avoid arbitrary sizes. Use a **type scale** to ensure harmony.
 
-### # Spacing Tokens
+### Spacing Tokens
 
 Spacing tokens enforce consistency and reduce cognitive load:
 
@@ -284,8 +256,6 @@ graph LR
 
 ---
 
-### Case Study: Building Core Components for a SaaS Dashboard
-
 ## Case Study: Designing the “Atlas” Dashboard Design System
 
 ### Context
@@ -336,8 +306,6 @@ Documentation answers:
 
 Historically, design systems gained traction when documentation became centralized and searchable (e.g., Storybook).
 
----
-
 ### What to Document
 
 Effective documentation includes:
@@ -347,8 +315,6 @@ Effective documentation includes:
 - Component usage guidelines
 - Accessibility notes
 - Code examples (if applicable)
-
----
 
 ### Documentation Flow
 
@@ -391,7 +357,6 @@ Review across multiple dimensions:
 
 Iteration should be continuous, not reactive.
 
----
 
 ### System Lifecycle Diagram
 

@@ -4,36 +4,13 @@ sidebar_position: 1
 part: 2
 part_title: Foundations of Visual and Interaction Design
 ---
-# Foundations of Visual and Interaction Design: Color and Typography Foundations
-
-## Learning Objectives
-
-- Apply basic color theory principles to UI design
-- Evaluate color contrast using accessibility standards
-- Define a typography hierarchy for digital interfaces
-- Explain how typography supports usability and brand
-- Identify accessibility risks in visual design choices
-
----
-
-## Introduction
-
-This chapter introduces color theory and typography as systematic design decisions rather than isolated choices, with a strong emphasis on accessibility and consistency.
-
----
-
-
----
-
+# Color and Typography Foundations
 
 When people first approach visual design for digital products, color and typography often feel like *artistic choices*—something subjective, intuitive, or based on personal taste. Designers may say, “This blue feels right,” or “That font looks modern.” While intuition does play a role, professional UI and interaction design treat color and typography very differently: as **systematic, intentional, and testable design decisions**.
 
 In modern digital products, color and typography are not decoration. They are **functional tools** that shape usability, accessibility, brand perception, and emotional response. Color guides attention, communicates status, and creates visual structure. Typography controls readability, establishes hierarchy, and directly affects how easily users can understand and navigate information. Poor decisions in either area can make a product confusing, inaccessible, or even unusable—no matter how powerful the underlying functionality may be.
 
 This chapter reframes color and typography as **foundational systems** rather than isolated choices. You will learn how designers use color theory and typographic principles to create consistent, accessible, and scalable interfaces. Just as importantly, you will learn *why* accessibility standards exist, how visual choices affect real users, and how to translate abstract design decisions into concrete rules that teams can apply consistently across an entire product ecosystem.
-
----
-
 
 By the end of this chapter, you will be able to:
 
@@ -163,8 +140,6 @@ Design implications include:
 |-----|-------------|------------------------|
 | Error state | Red text only | Red + icon + message |
 | Status | Color dots | Color + label |
-
-### Case Study: Redesigning a Banking Dashboard for Accessibility
 
 ## Case Study: Making Financial Data Accessible Through Color
 

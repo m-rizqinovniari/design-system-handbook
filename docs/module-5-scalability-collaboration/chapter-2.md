@@ -4,36 +4,13 @@ sidebar_position: 2
 part: 5
 part_title: Scalable Design Systems and Collaboration
 ---
-# Scalable Design Systems and Collaboration: Documentation, Tools, and Collaboration
-
-## Learning Objectives
-
-- Structure clear and usable design system documentation
-- Use Figma features to manage design systems
-- Explain the role of Storybook in development
-- Collaborate effectively with developers
-- Manage and communicate system changes
-
----
-
-## Introduction
-
-This chapter focuses on documenting design systems and collaborating effectively with developers using modern tools and workflows.
-
----
-
-
----
-
+# Documentation, Tools, and Collaboration
 
 As digital products grow in size, complexity, and team count, design can no longer be managed as a collection of isolated screens or one-off decisions. What once worked for a small team—sharing static mockups, informal conversations, and ad-hoc handoffs—quickly breaks down when products scale across platforms, teams, and time. This is where **scalable design systems** and **strong collaboration practices** become essential.
 
 A design system is more than a style guide. It is a **shared language** between designers, developers, product managers, and stakeholders. Documentation explains that language, tools like Figma and Storybook operationalize it, and collaboration workflows ensure it evolves without chaos. Without proper documentation and collaboration, even the most well-crafted design systems become unused, misunderstood, or actively resisted.
 
 This chapter focuses on the **practical reality of making design systems usable at scale**. We will explore how to structure documentation so it supports learning and daily work, how to use Figma as a system management tool (not just a design canvas), how Storybook bridges the gap between design and code, and how teams collaborate, version, and communicate changes effectively. Throughout the chapter, you will see concrete examples, detailed explanations, visual diagrams, and a comprehensive case study that brings these ideas to life.
-
----
-
 
 By the end of this chapter, you will be able to:
 
@@ -141,7 +118,7 @@ Today, Figma supports:
 
 ### Core Figma Features for Design Systems
 
-### # Components and Variants
+### Components and Variants
 
 Components are the atomic units of design systems in Figma. Variants allow multiple states (size, type, state) to be grouped logically.
 
@@ -158,7 +135,7 @@ A button component might have:
 
 This creates a structured matrix instead of dozens of separate components.
 
-### # Styles and Tokens
+### Styles and Tokens
 
 Color, text, and effect styles act as design tokens. They bridge the gap between design and code by naming decisions explicitly.
 

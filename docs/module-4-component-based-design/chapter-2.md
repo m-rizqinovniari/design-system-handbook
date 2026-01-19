@@ -4,27 +4,7 @@ sidebar_position: 2
 part: 4
 part_title: Component-Based Design
 ---
-# Component-Based Design: Core Components, States, and Documentation
-
-## Learning Objectives
-
-- Design reusable core UI components
-- Define and document component states and variants
-- Apply accessibility principles to components
-- Document components for design system use
-- Evaluate components for consistency and reuse
-
----
-
-## Introduction
-
-This chapter covers designing core UI components, defining states and variants, and documenting them for reuse.
-
----
-
-
----
-
+# Core Components, States, and Documentation
 
 Modern digital products—whether websites, mobile apps, or enterprise dashboards—are no longer designed as one-off screens. Instead, they are built from **reusable building blocks called components**. Buttons, form fields, navigation bars, cards, modals, and alerts appear repeatedly across an interface. When these elements are designed inconsistently or without clear rules, products quickly become difficult to scale, hard to maintain, and confusing for users.
 
@@ -33,9 +13,6 @@ This chapter explores **component-based design**, a foundational concept in cont
 Historically, component-based thinking emerged alongside modular programming and later gained momentum with frontend frameworks like React, Angular, and Vue. Design tools such as Figma, Sketch, and Adobe XD further accelerated this shift by making it easy to define, reuse, and document components visually. Today, component-based design is not optional—it is essential for consistency, efficiency, and quality at scale.
 
 In this chapter, you will move step by step from designing core components to evaluating them for reuse and consistency. Along the way, you will see concrete examples, detailed explanations, visual diagrams, tables, and a comprehensive case study that demonstrates how these concepts work together in real-world scenarios.
-
----
-
 
 By the end of this chapter, you will be able to:
 
@@ -151,15 +128,33 @@ Each state must be visually distinct and semantically meaningful. For example, a
 
 ```mermaid
 stateDiagram-v2
-    [*] --> Default
-    Default --> Hover
-    Hover --> Active
-    Active --> Default
-    Default --> Disabled
-    Disabled --> Default
+    direction TB
+    
+    [*] --> DefaultState
+    
+    DefaultState --> HoverState
+    DefaultState --> FocusedState
+    DefaultState --> DisabledState
+    DefaultState --> LoadingState
+    DefaultState --> ErrorState
+    
+    HoverState --> ActiveState
+    
+    FocusedState --> ActiveState
+    
+    ActiveState --> DefaultState
+    
+    LoadingState --> ErrorState
+    
+    ErrorState --> DefaultState
 ```
 
-This state diagram shows how a simple button transitions between interaction states.
+This state diagram shows how a component transitions between all possible interaction states. Note that:
+- **Default** is the starting point and can transition to any other state
+- **Hover** and **Focused** can lead to **Active** (pressed/clicked)
+- **Loading** can succeed (return to Default) or fail (transition to Error)
+- **Disabled** prevents interaction but can return to Default when enabled
+- **Error** can be cleared to return to Default state
 
 ### Understanding Variants
 
@@ -251,10 +246,6 @@ Real-world usage introduces edge cases:
 - Partial input  
 
 Behavioral rules should define how components protect users from errors, such as disabling a button during submission.
-
-### Case Study Integration
-
-Behavioral rules often emerge from observing real users. Teams that skip usability testing frequently miss critical interactions, leading to frustration and abandonment.
 
 ---
 

@@ -4,36 +4,13 @@ sidebar_position: 2
 part: 3
 part_title: Design Tokens and System Foundations
 ---
-# Design Tokens and System Foundations: Token Structure, Naming, and Multi-Platform Use
-
-## Learning Objectives
-
-- Create a structured hierarchy for design tokens
-- Apply consistent and scalable naming conventions
-- Define tokens for multiple visual properties
-- Adapt tokens for web and mobile platforms
-- Evaluate token structures for maintainability
-
----
-
-## Introduction
-
-This chapter dives into practical token creation, focusing on naming conventions, structure, and adapting tokens for multiple platforms.
-
----
-
-
----
-
+# Token Structure, Naming, and Multi-Platform Use
 
 As digital products grow in scale and complexity, design consistency becomes harder to maintain. Teams work across multiple platforms—web, iOS, Android, sometimes even wearables or embedded systems—while products evolve rapidly through frequent updates. In this environment, traditional approaches to managing colors, typography, spacing, and other visual decisions quickly break down. Hard-coded values in CSS files, scattered style definitions in design tools, and undocumented conventions lead to inconsistency, slow development, and costly redesigns.
 
 Design tokens emerged as a response to this challenge. They provide a systematic, technology-agnostic way to define and manage design decisions as structured data. Instead of saying “the primary blue is #0057FF in CSS and UIColor(red: …) in iOS,” we say “the primary color token is `color.brand.primary`,” and let each platform consume that token in its own way. This chapter dives into the *practical foundations* of working with design tokens: how to structure them, how to name them, how to define them for common visual properties, and how to adapt them across platforms while keeping systems maintainable over time.
 
 Rather than focusing on abstract theory alone, this chapter emphasizes real-world usage. You will see how token hierarchies reflect design intent, why naming conventions matter as much as the values themselves, and how teams successfully manage token evolution in production systems. By the end, you should be able to design a token system that scales with both your product and your organization.
-
----
-
 
 By the end of this chapter, you will be able to:
 

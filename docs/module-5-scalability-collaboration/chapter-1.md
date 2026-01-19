@@ -4,27 +4,7 @@ sidebar_position: 1
 part: 5
 part_title: Scalable Design Systems and Collaboration
 ---
-# Scalable Design Systems and Collaboration: Scalability, Patterns, and Theming
-
-## Learning Objectives
-
-- Identify and design complex UI patterns
-- Apply responsive principles at the system level
-- Design and manage themes including dark mode
-- Maintain consistency across large systems
-- Evaluate scalability risks in design systems
-
----
-
-## Introduction
-
-This chapter explores advanced patterns, responsive behavior, and theming strategies to support product growth.
-
----
-
-
----
-
+# Scalability, Patterns, and Theming
 
 As digital products grow, they rarely fail because of a lack of features. Instead, they fail because complexity becomes unmanageable. What once felt like a clean and intuitive interface slowly turns into a patchwork of inconsistent components, duplicated styles, conflicting behaviors, and slow collaboration between teams. This is where **scalable design systems** become essential—not as a static library of UI elements, but as a living, evolving foundation that supports growth, collaboration, and long-term product quality.
 
@@ -33,9 +13,6 @@ In early-stage products, design decisions are often made quickly and locally. A 
 This chapter focuses on **advanced design system strategies** that address these challenges head-on. We explore how to design complex UI patterns, how responsiveness and adaptivity should be handled at the system level (not screen by screen), how theming—including dark mode—can be built into the core of a system, and how organizations maintain consistency across dozens of teams. Finally, we examine pattern libraries and reuse as a way to encode knowledge and scale collaboration.
 
 Rather than treating design systems as a collection of components, this chapter treats them as **organizational infrastructure**—similar to roads, electrical grids, or operating systems. When designed well, they are mostly invisible, but they enable speed, quality, and innovation at scale.
-
----
-
 
 By the end of this chapter, you will be able to:
 
